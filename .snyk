@@ -1,0 +1,59 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - harp > connect > body-parser > debug:
+        patched: '2019-04-16T02:35:44.797Z'
+    - harp > connect > connect-timeout > debug:
+        patched: '2019-04-16T02:35:44.797Z'
+    - harp > connect > express-session > debug:
+        patched: '2019-04-16T02:35:44.797Z'
+    - harp > connect > morgan > debug:
+        patched: '2019-04-16T02:35:44.797Z'
+    - harp > connect > serve-index > debug:
+        patched: '2019-04-16T02:35:44.797Z'
+    - harp > connect > serve-static > send > debug:
+        patched: '2019-04-16T02:35:44.797Z'
+    - harp > connect > compression > debug:
+        patched: '2019-04-16T02:35:44.797Z'
+  'npm:mime:20170907':
+    - harp > send > mime:
+        patched: '2019-04-16T02:35:44.797Z'
+    - harp > connect > serve-static > send > mime:
+        patched: '2019-04-16T02:35:44.797Z'
+    - harp > mime:
+        patched: '2019-04-16T02:35:44.797Z'
+  'npm:ms:20170412':
+    - harp > connect > connect-timeout > ms:
+        patched: '2019-04-16T02:35:44.797Z'
+    - harp > connect > morgan > debug > ms:
+        patched: '2019-04-16T02:35:44.797Z'
+    - harp > connect > compression > debug > ms:
+        patched: '2019-04-16T02:35:44.797Z'
+    - harp > connect > serve-static > send > ms:
+        patched: '2019-04-16T02:35:44.797Z'
+    - harp > connect > body-parser > debug > ms:
+        patched: '2019-04-16T02:35:44.797Z'
+    - harp > connect > connect-timeout > debug > ms:
+        patched: '2019-04-16T02:35:44.797Z'
+    - harp > connect > express-session > debug > ms:
+        patched: '2019-04-16T02:35:44.797Z'
+    - harp > connect > serve-index > debug > ms:
+        patched: '2019-04-16T02:35:44.797Z'
+    - harp > connect > serve-static > send > debug > ms:
+        patched: '2019-04-16T02:35:44.797Z'
+    - harp > connect > serve-favicon > ms:
+        patched: '2019-04-16T02:35:44.797Z'
+  'npm:negotiator:20160616':
+    - harp > connect > compression > accepts > negotiator:
+        patched: '2019-04-16T02:35:44.797Z'
+    - harp > connect > serve-index > accepts > negotiator:
+        patched: '2019-04-16T02:35:44.797Z'
+  'npm:tar:20151103':
+    - harp > download-github-repo > download > decompress > tar:
+        patched: '2019-04-16T02:35:44.797Z'
+  'npm:uglify-js:20151024':
+    - harp > terraform > harp-jade > transformers > uglify-js:
+        patched: '2019-04-16T02:35:44.797Z'
