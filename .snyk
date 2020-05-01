@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T02:36:07.131Z'
+    - marky-markdown > cheerio > lodash:
+        patched: '2020-05-01T02:36:07.131Z'
+    - marky-markdown > highlights > first-mate-select-grammar > lodash:
+        patched: '2020-05-01T02:36:07.131Z'
+    - harp > terraform > node-sass > sass-graph > lodash:
+        patched: '2020-05-01T02:36:07.131Z'
